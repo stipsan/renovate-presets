@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "github>stipsan/renovate-presets:automerge",
     "github>stipsan/renovate-presets:base",
     "github>stipsan/renovate-presets:group",
     "github>stipsan/renovate-presets:schedule",
