@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node validate"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.5",
+    "json-schema-remote": "^1.6.1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}
