@@ -3,35 +3,35 @@
   "packageRules": [
     {
       "updateTypes": ["major"],
-      "labels": ["renovatebot", "major"]
+      "labels": ["dependencies", "major"]
     },
     {
       "updateTypes": ["minor"],
-      "labels": ["renovatebot", "minor"]
+      "labels": ["dependencies", "minor"]
     },
     {
       "updateTypes": ["patch"],
-      "labels": ["renovatebot", "patch"]
+      "labels": ["dependencies", "patch"]
     },
     {
       "updateTypes": ["pin"],
-      "labels": ["renovatebot", "pin"]
+      "labels": ["dependencies", "pin"]
     },
     {
       "updateTypes": ["digest"],
-      "labels": ["renovatebot", "digest"]
+      "labels": ["dependencies", "digest"]
     },
     {
       "updateTypes": ["lockFileMaintenance"],
-      "labels": ["renovatebot", "lockFileMaintenance"]
+      "labels": ["dependencies", "lockFileMaintenance"]
     },
     {
       "updateTypes": ["rollback"],
-      "labels": ["renovatebot", "rollback"]
+      "labels": ["dependencies", "rollback"]
     },
     {
       "updateTypes": ["bump"],
-      "labels": ["renovatebot", "bump"]
+      "labels": ["dependencies", "bump"]
     }
   ]
 }
