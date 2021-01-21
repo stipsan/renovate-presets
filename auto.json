@@ -1,4 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local:base", "local:group", "local:schedule", "local:strategy"]
+  "extends": [
+    "github>stipsan/renovate-presets:base",
+    "github>stipsan/renovate-presets:group",
+    "github>stipsan/renovate-presets:schedule",
+    "github>stipsan/renovate-presets:strategy"
+  ]
 }
