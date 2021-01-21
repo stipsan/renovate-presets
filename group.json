@@ -1,0 +1,56 @@
+{
+  "extends": ["group:linters", "group:postcss"],
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["patch", "minor"],
+      "groupName": "dependencies (non-major)"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["patch", "minor"],
+      "groupName": "devDependencies (non-major)"
+    },
+    {
+      "groupName": "typescript packages",
+      "packageNames": ["typescript", "type-fest"],
+      "packagePatterns": ["^@types/"]
+    },
+    {
+      "groupName": "reach packages",
+      "packagePatterns": ["^@reach/"]
+    },
+    {
+      "extends": ["monorepo:react"],
+      "groupName": "react packages",
+      "packageNames": ["prop-types"]
+    },
+    {
+      "groupName": "grunt packages",
+      "packagePatterns": ["^grunt-"],
+      "packageNames": ["grunt", "load-grunt-tasks"]
+    },
+    {
+      "groupName": "webpack packages",
+      "packagePatterns": ["^webpack", "-webpack-plugin$"],
+      "packageNames": [
+        "babel-loader",
+        "css-loader",
+        "file-loader",
+        "mini-css-extract-plugin",
+        "mustache-loader",
+        "postcss-loader",
+        "raw-loader",
+        "sass-loader",
+        "source-map-loader",
+        "style-loader",
+        "url-loader",
+        "vue-loader"
+      ]
+    },
+    {
+      "groupName": "rollup packages",
+      "packagePatterns": ["^@rollup/", "^rollup"]
+    }
+  ]
+}
