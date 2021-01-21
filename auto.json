@@ -3,6 +3,7 @@
   "extends": [
     "github>stipsan/renovate-presets:automerge",
     "github>stipsan/renovate-presets:base",
+    "github>stipsan/renovate-presets:labels",
     "github>stipsan/renovate-presets:schedule",
     "github>stipsan/renovate-presets:strategy"
   ],

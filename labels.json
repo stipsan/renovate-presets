@@ -1,0 +1,37 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "updateTypes": ["major"],
+      "labels": ["renovatebot", "major"]
+    },
+    {
+      "updateTypes": ["minor"],
+      "labels": ["renovatebot", "minor"]
+    },
+    {
+      "updateTypes": ["patch"],
+      "labels": ["renovatebot", "patch"]
+    },
+    {
+      "updateTypes": ["pin"],
+      "labels": ["renovatebot", "pin"]
+    },
+    {
+      "updateTypes": ["digest"],
+      "labels": ["renovatebot", "digest"]
+    },
+    {
+      "updateTypes": ["lockFileMaintenance"],
+      "labels": ["renovatebot", "lockFileMaintenance"]
+    },
+    {
+      "updateTypes": ["rollback"],
+      "labels": ["renovatebot", "rollback"]
+    },
+    {
+      "updateTypes": ["bump"],
+      "labels": ["renovatebot", "bump"]
+    }
+  ]
+}
