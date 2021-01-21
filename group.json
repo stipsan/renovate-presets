@@ -65,6 +65,21 @@
     {
       "groupName": "popmotion",
       "packageNames": ["popmotion", "stylefire"]
+    },
+    {
+      "extends": ["monorepo:babel6", "monorepo:babel"],
+      "groupName": "babel"
+    },
+    {
+      "extends": "packages:linters",
+      "groupName": "linters",
+      "packageNames": [
+        "husky",
+        "lint-staged",
+        "prettier",
+        "babel-eslint",
+        "prettier-package-json"
+      ]
     }
   ]
 }
