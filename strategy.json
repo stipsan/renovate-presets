@@ -3,7 +3,7 @@
   "extends": [":widenPeerDependencies"],
   "packageRules": [
     {
-      "depTypeList": ["dependencies", "devDependencies"],
+      "depTypeList": ["dependencies", "devDependencies", "resolutions"],
       "rangeStrategy": "update-lockfile"
     }
   ]
