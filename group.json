@@ -57,6 +57,14 @@
     {
       "groupName": "rollup packages",
       "packagePatterns": ["^@rollup/", "^rollup"]
+    },
+    {
+      "groupName": "scroll-into-view",
+      "packagePatterns": ["scroll-into-view"]
+    },
+    {
+      "groupName": "popmotion",
+      "packageNames": ["popmotion", "stylefire"]
     }
   ]
 }
