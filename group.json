@@ -13,6 +13,11 @@
       "groupName": "devDependencies (non-major)"
     },
     {
+      "depTypeList": ["resolutions"],
+      "updateTypes": ["patch", "minor"],
+      "groupName": "resolutions (non-major)"
+    },
+    {
       "groupName": "typescript packages",
       "packageNames": ["typescript", "type-fest"],
       "packagePatterns": ["^@types/"]
