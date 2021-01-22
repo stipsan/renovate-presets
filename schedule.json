@@ -5,6 +5,10 @@
     {
       "depTypeList": ["devDependencies"],
       "schedule": ["before 4am on sunday"]
+    },
+    {
+      "depTypeList": ["dependencies", "peerDependencies", "resolutions"],
+      "extends": ["schedule:daily"]
     }
   ]
 }
