@@ -52,6 +52,10 @@
       "packageNames": ["popmotion", "stylefire"]
     },
     {
+      "groupName": "refractor",
+      "packageNames": ["refractor", "react-refractor"]
+    },
+    {
       "extends": ["monorepo:babel6", "monorepo:babel"],
       "groupName": "babel"
     },
