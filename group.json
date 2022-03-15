@@ -67,7 +67,9 @@
         "lint-staged",
         "prettier",
         "babel-eslint",
-        "prettier-package-json"
+        "prettier-package-json",
+        "prettier-eslint-cli",
+        "@nuxtjs/eslint-config"
       ]
     }
   ]
