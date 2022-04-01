@@ -3,6 +3,11 @@
   "extends": ["group:linters", "group:postcss"],
   "packageRules": [
     {
+      "groupName": "sanity packages",
+      "packageNames": ["sanity", "next-sanity"],
+      "packagePatterns": ["^@sanity/", "^@portable-text/"]
+    },
+    {
       "groupName": "typescript packages",
       "packageNames": ["typescript", "type-fest"],
       "packagePatterns": ["^@types/"]
