@@ -3,6 +3,11 @@
   "extends": ["group:linters", "group:postcss"],
   "packageRules": [
     {
+      "groupName": "three packages",
+      "packageNames": ["three"],
+      "packagePatterns": ["^@react-three/"]
+    },
+    {
       "groupName": "sanity packages",
       "packageNames": ["sanity", "next-sanity"],
       "packagePatterns": ["^@sanity/", "^@portable-text/"]
