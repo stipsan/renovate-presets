@@ -1,7 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":prHourlyLimitNone", ":semanticCommits"],
-  "ignorePresets": [":ignoreModulesAndTests"],
-  "ignorePaths": [],
-  "dependencyDashboard": true
+  "extends": ["github>sanity-io/renovate-presets//ecosystem/base"]
 }
