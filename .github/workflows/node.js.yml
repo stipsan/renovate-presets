@@ -2,20 +2,19 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3
-    - uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516 # v3
-      with:
-        node-version: lts/*
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3
+      - uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516 # v3
+        with:
+          node-version: lts/*
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
