@@ -7,6 +7,11 @@
     "fast-glob": "^3.2.5",
     "json-schema-remote": "^1.6.1"
   },
+    
+  "devDependencies": {
+    "prettier": "^2.8.0",
+    "prettier-plugin-packagejson": "^2.3.0"
+  }
   "engines": {
     "node": ">=14"
   },
