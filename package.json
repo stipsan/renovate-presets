@@ -4,8 +4,8 @@
     "test": "node validate"
   },
   "dependencies": {
-    "fast-glob": "^3.2.5",
-    "json-schema-remote": "^1.6.1"
+    "fast-glob": "^3.2.12",
+    "json-schema-remote": "^1.6.2"
   },
     
   "devDependencies": {
